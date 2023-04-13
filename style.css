@@ -8,8 +8,12 @@
     display: flex; 
 }
 
-a{text-decoration: none;color: black;}
+.bold{
+    font-weight: bold;
+}
 
+a{text-decoration: none;color: black;}
+.buy-now{text-decoration: underline;color: rgba(99,148,245,255);}
 .button{
     background-color: rgba(0,97,255,255);
     padding: 8px 17px;
@@ -96,4 +100,67 @@ ul li{
 }
 
 
+main{
+    margin-top: 10rem;
+}
+
+.small-container{
+    width: 65%;
+    margin: 0 auto;
+    border: 1px solid red;
+    height: 900px;
+}
+
+.business h1{
+    font-size: 40px;
+    margin-bottom: 4rem;
+}
+
+input {
+    margin: 0.4rem;
+}
+
+.checkbox{
+    margin-bottom: 3rem;
+}
+
+#fatt-annuale{margin-left: 2rem;}
+
+
+.container-cards{
+    justify-content: space-between;
+}
+
+.cards{
+    width: 31.5%;
+    border: 1px solid magenta;
+}
+
+
+.title{
+    text-align: center;
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.description{
+    padding: 1.8rem;
+    text-align: center;
+}
+
+.description p{
+    margin: 15px 0;
+    font-size: 14px;
+}
+
+.description h4{
+    margin: 10px 0;
+}
+
+.line{
+    margin: 10px auto;
+    height: 1.5px;
+    width: 60px;
+    background-color: grey;
+}
 
