@@ -16,7 +16,7 @@ a{text-decoration: none;color: black;}
 .buy-now{text-decoration: underline;color: rgba(99,148,245,255);}
 .button{
     background-color: rgba(0,97,255,255);
-    padding: 8px 17px;
+    padding: 8px 25px;
     color: #fff;
 }
 .button:hover{background-color: rgb(13, 79, 177);}
@@ -57,7 +57,7 @@ ul li{
 .big-container{
     width: 80%;
     margin: 0 auto;
-    border: 1px solid red;
+    
 }
 
 .jumbo{
@@ -70,7 +70,7 @@ ul li{
 }
 
 .left-jumbo{
-    border: 1px solid red;
+    
     width: 30%;
     padding: 0 1.5rem;
     text-align: left;
@@ -88,7 +88,7 @@ ul li{
 }
 
 .right-jumbo{
-    border: 1px solid red;
+   
     width: 70%;
     padding: 2%;
 }
@@ -107,7 +107,7 @@ main{
 .small-container{
     width: 65%;
     margin: 0 auto;
-    border: 1px solid red;
+   
 }
 
 .business h1{
@@ -131,14 +131,14 @@ input {
 }
 
 .cards{
-    border: 1px solid magenta;
+    border: 1px solid grey;
     margin-bottom: 2rem;
 }
 
 
 .title{
     text-align: center;
-    border: 1px solid grey;
+    border-bottom: 1px solid grey;
     padding: 10px;
 }
 
@@ -147,7 +147,7 @@ input {
 }
 
 .description{
-    padding: 1.4rem;
+    padding: 1rem;
 }
 
 .description p{
@@ -168,13 +168,14 @@ input {
 
 .check{
     color: rgba(99,148,245,255);
-    margin: 10px 0;
+    margin-right: 5px;
     font-weight: bolder;
 }
 
 .ufficio-vendite{
-    padding-top: 2.1rem;
-    padding-left: 2.5rem;
+    width: 50%;
+    padding-top: 8px;
+    padding-left: 11rem;
 }
 
 
@@ -206,5 +207,8 @@ button{
     border: 1px solid black;
     padding: 8px 17px;
     background-color: #fff;
+}
+button:hover{
+    background-color: #eee;
 }
 
