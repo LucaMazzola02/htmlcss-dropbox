@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex; 
+}
+
+a{text-decoration: none;color: black;}
+
+.button{
+    background-color: rgba(0,97,255,255);
+    padding: 12% 25%;
+    color: #fff;
+    border-radius: 5px;
+}
+.button:hover{background-color: rgba(180,208,231,255);}
+
+header{
+    padding: 1.6%;
+}
+
+ul{
+    list-style-type: none;
+    padding: 1.8% 0;
+    justify-content: center;
+}
+
+.logo{
+    padding: .8% 0;
+}
+
+
+nav{
+   justify-content: space-between; 
+}
+
+ul li{
+    margin: 0 10px 0 18px;
+}
+
+.login{
+    padding-top: 1.8%;  
+    margin: 0 10px 0 10px;
+}
+
