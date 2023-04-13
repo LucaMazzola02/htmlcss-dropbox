@@ -212,3 +212,37 @@ button:hover{
     background-color: #eee;
 }
 
+
+
+.container-operations{
+    margin-top: 7rem;
+}
+.container-operations h1{
+    padding: 3rem 0;
+}
+.operations{
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 2rem;
+}
+
+.small-card{
+    width: 33.33%;
+}
+
+.contain-img{
+    width: 100%;
+    height: 250px;
+}
+
+.contain-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 8px;
+}
+
+.small-card h3{
+    margin-bottom: 18px;
+}
+
