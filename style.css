@@ -108,7 +108,6 @@ main{
     width: 65%;
     margin: 0 auto;
     border: 1px solid red;
-    height: 900px;
 }
 
 .business h1{
@@ -128,12 +127,12 @@ input {
 
 
 .container-cards{
-    justify-content: space-between;
+    gap: 10px;
 }
 
 .cards{
-    width: 31.5%;
     border: 1px solid magenta;
+    margin-bottom: 2rem;
 }
 
 
@@ -143,9 +142,12 @@ input {
     padding: 10px;
 }
 
+.user{
+    margin-right: 5px;
+}
+
 .description{
-    padding: 1.8rem;
-    text-align: center;
+    padding: 1.4rem;
 }
 
 .description p{
@@ -158,9 +160,20 @@ input {
 }
 
 .line{
-    margin: 10px auto;
+    margin: 10px 0;
     height: 1.5px;
     width: 60px;
     background-color: grey;
+}
+
+.check{
+    color: rgba(99,148,245,255);
+    margin: 10px 0;
+    font-weight: bolder;
+}
+
+.ufficio-vendite{
+    padding-top: 2.1rem;
+    padding-left: 2.5rem;
 }
 
