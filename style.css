@@ -177,3 +177,34 @@ input {
     padding-left: 2.5rem;
 }
 
+
+.partner{
+    margin-top: 4rem;
+}
+
+.left-partner{
+    width: 60%;
+}
+
+.left-partner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.right-partner{
+    width: 40%;
+    padding: 3.5% 3.5%;
+}
+
+.right-partner h2,
+.right-partner p{
+    margin-bottom: 20px;
+}
+
+button{
+    border: 1px solid black;
+    padding: 8px 17px;
+    background-color: #fff;
+}
+
