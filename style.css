@@ -39,7 +39,7 @@ nav{
    justify-content: space-between; 
 }
 
-ul li{
+header nav ul li{
     margin: 0 10px 0 18px;
 }
 
@@ -177,7 +177,7 @@ input {
 .line{
     margin: 10px 0;
     height: 1.5px;
-    width: 60px;
+    width: 70px;
     background-color: grey;
 }
 
@@ -384,4 +384,25 @@ button:hover{
     font-size: 15px;
     width: 10%;
     font-weight: bold;
+}
+
+
+footer{
+    background-color: rgba(0,0,0,255);
+    color: #fff;
+}
+
+.footer-information{
+    padding: 4rem 0;
+    justify-content: space-between;
+}
+
+.information ul li{
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.language{
+    padding: 1rem 0 1.5rem;
+    font-size: 12px;
 }
