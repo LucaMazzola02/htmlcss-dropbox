@@ -362,3 +362,26 @@ button:hover{
     color: rgba(95,5,41,255);
     font-size: 32px;
 }
+
+.container-accordion{
+    margin: 7rem 0;
+}
+
+.container-accordion h1{
+    margin-bottom: 4rem;
+}
+
+.accordion{
+    padding: 4% 0;
+}
+
+.question{
+    width: 90%;
+}
+
+.cap{
+    text-align: center;
+    font-size: 15px;
+    width: 10%;
+    font-weight: bold;
+}
