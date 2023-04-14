@@ -51,7 +51,7 @@ ul li{
 
 .bg-jumbo{
     background-color: rgba(180,208,231,255);
-    height: 70vh;
+    height: 75vh;
 }
 
 .big-container{
@@ -61,6 +61,7 @@ ul li{
 }
 
 .jumbo{
+    padding-top: 3rem;
     text-align: center;
 }
 
@@ -85,7 +86,21 @@ ul li{
 .arrow{
     font-size: 30px;
     margin-top: 10px;
+    animation: translate 1.4s linear infinite;
 }
+
+@keyframes translate {
+    50% {
+        transform: translateY(40px) scale(1.5);
+        
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+
+}
+
 
 .right-jumbo{
    
