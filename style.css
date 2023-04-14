@@ -238,7 +238,7 @@ button:hover{
 .operations{
     justify-content: space-between;
     gap: 10px;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .small-card{
@@ -261,3 +261,104 @@ button:hover{
     margin-bottom: 18px;
 }
 
+.data{
+    margin-top: 8rem;
+    width: 50%;
+}
+
+.data h2{
+    font-size: 30px;
+    margin-bottom: 2.5rem;
+}
+
+.container-block{
+    margin-top: 5rem;
+}
+
+.block{
+    flex-wrap: wrap;
+    width: 33.33%;
+    height: 400px;
+}
+
+.center-block{
+    background-color: rgba(245,245,245,255);
+    padding: 2rem;
+}
+
+.center-block img{
+    height: 60px;
+}
+
+.small-block{
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-block img{
+    height: 30%;
+    width: 65%;
+    color: #fff;
+}
+
+.bg-green{
+    background-color: rgba(162,211,155,255);
+    border: 15px solid rgba(209,233,205,255);
+}
+
+.bg-bordeaux{
+    background-color: rgba(97,8,43,255);
+}
+
+.bg-sky-blue{
+    background-color: rgba(0,147,206,255);
+}
+
+.bg-light-red{
+    background-color: rgba(255,28,28,255);
+}
+
+.bg-dark-red{
+    background-color: rgba(213,0,31,255);
+}
+
+.bg-light-blue{
+    background-color: rgba(180,208,231,255);
+}
+
+.bg-blue{
+    background-color: rgba(13,36,129,255);
+}
+
+.bg-yellow{
+    background-color: rgba(255,216,48,255);
+}
+
+.bg-pubblicity{
+    height: 35vh;
+    background-color: rgba(180,208,231,255);
+}
+
+.pubblicity-left{
+    width: 50%;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 5rem;
+}
+
+.pubblicity-right{
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.cont-pubbli{
+    height: 100%;
+}
+
+.pubblicity-left h2{
+    color: rgba(95,5,41,255);
+    font-size: 32px;
+}
